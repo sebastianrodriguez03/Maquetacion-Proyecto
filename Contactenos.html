@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <style>
+          body{
+              background-image: url(img/resss.png);
+              background-attachment: fixed;
+              background-size: cover;
+              background-repeat: no-repeat;
+              width: 100%;
+              height: 100px;
+          }
+            #contact_form {
+              padding:5;
+              }
+
+            #ff label {
+                cursor:pointer;
+                margin:4px 0;
+                display:block;
+                }
+
+            input {	
+                display:block;
+                width:100%;
+                border-radius:4px;
+                -webkit-border-radius:4px;
+                -moz-border-radius:4px;
+                background-color:#17353d71;
+                color:rgb(255, 255, 255);	
+                border:1px solid #9E9E9E;
+                padding:10px;	
+                margin-bottom:25px;}
+
+            textarea {
+                display:block;
+                width:100%;
+                height:150px; 
+                border-radius:4px;
+                -webkit-border-radius:4px;
+                -moz-border-radius:4px;
+                background-color:#17353d71;
+                color: rgb(255, 255, 255);	
+                border:1px solid #9E9E9E;
+                padding:10px;	
+                margin-bottom:25px;
+                }
+
+            .sendButton {
+                cursor:pointer;
+                background-color:rgb(0, 168, 0);
+                -webkit-border-radius:16px;
+                -moz-border-radius:16px;
+                border-radius:16px;	
+                color:#ffffff;
+                width:25%;	
+                font-weight:bold;
+                }
+                strong,label{
+                    color:white;
+                }
+                h2{
+                  color: rgb(0, 168, 0);
+                  margin: center;
+                }
+
+
+            
+      </style>
+           
+        
+      <div class="container">
+          <div class="row form justify-content-center">
+              <div class="col-6">
+                
+                    <div>
+							<h2 class="  letter_spacing ">Contactenos</h2>
+							
+							<div id="contact_form">	
+								<strong>EN CASO DE INQUIETUD COMUNICARSE AL: # <strong class="numero bg-info"> 3102083175</strong></strong>
+								<form name="form1" id="ff" method="post" action="Contacts.php">
+									 <label> Nombre*:<input type="text" placeholder="Ingrese su nombre" name="name"id="name"required>
+									 </label>
+								 
+									 <label> Email*:<input type="email" placeholder="Ingrese su email" name="email" id="email"required>
+                                     </label>
+
+                   <label> Telefono*:<input type="namber" placeholder="Ingrese su telefono" name="telefono" id="telefono"required>
+									 </label>
+										
+									 <label> Message*:<textarea name="message" id="message" placeholder="Ingrese su mensaje"></textarea>
+                                     </label>
+                                     									 								 
+                   <input class="sendButton mr-center" type="submit" name="Submit" value="Enviar">
+                  </div> <a name="" id="" class="btn btn-primary p-10 mb-5  mt-5 m-right" href="paginaPrincipal.html" role="button">Volver</a>
+									 
+								</form>
+							</div>
+						</div>
+              </div>
+          </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
